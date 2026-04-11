@@ -1,6 +1,6 @@
 # TCN vs RNN for Long-Range Dependencies: A Benchmarking Study
 
-## 📌 Overview
+## Overview
 
 This project reproduces and extends the paper *"An Empirical Evaluation of Convolutional vs Recurrent Networks for Sequence Modeling"* by systematically benchmarking **Temporal Convolutional Networks (TCN)** against **RNN, LSTM, and GRU** architectures.
 
@@ -8,13 +8,13 @@ The focus is on evaluating the ability of different sequence models to capture *
 
 ---
 
-## 🚀 Key Contributions
+## Key Contributions
 
 * Implemented **TCN, RNN, LSTM, and GRU** in PyTorch within a unified experimental framework
 * Demonstrated **TCN’s superiority in long-range dependency modeling**, achieving:
 
-  * ✅ **100% accuracy on Copy Memory (T ≥ 500)**
-  * ❌ Recurrent models failed (~10–15% accuracy)
+  * **100% accuracy on Copy Memory (T ≥ 500)**
+  *  Recurrent models failed (~10–15% accuracy)
 * Built a **modular sequence modeling framework** supporting:
 
   * Classification
@@ -29,7 +29,7 @@ The focus is on evaluating the ability of different sequence models to capture *
 
 ---
 
-## 📊 Datasets
+## Datasets
 
 * **Sequential MNIST** – sequence classification task
 * **Copy Memory Task** – long-range dependency benchmark
@@ -37,7 +37,7 @@ The focus is on evaluating the ability of different sequence models to capture *
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 * Python
 * PyTorch
@@ -46,7 +46,7 @@ The focus is on evaluating the ability of different sequence models to capture *
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 | Model | Copy Memory (T=500+) | Key Insight                            |
 | ----- | -------------------- | -------------------------------------- |
@@ -57,7 +57,7 @@ The focus is on evaluating the ability of different sequence models to capture *
 
 ---
 
-## 🔬 Key Insights
+## Key Insights
 
 * **TCNs outperform recurrent architectures** in long-range sequence tasks
 * Dilated causal convolutions enable **large receptive fields with stable gradients**
@@ -66,7 +66,7 @@ The focus is on evaluating the ability of different sequence models to capture *
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 * Extend to **real-world time-series anomaly detection (NAB dataset)**
 * Benchmark against **Transformer-based architectures**
@@ -74,7 +74,7 @@ The focus is on evaluating the ability of different sequence models to capture *
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 git clone https://github.com/your-username/tcn-vs-rnn-sequence-modeling.git
@@ -85,7 +85,7 @@ python train.py
 
 ---
 
-## 📎 Reference
+## Reference
 
 Bai, Shaojie, J. Zico Kolter, and Vladlen Koltun.
 *"An Empirical Evaluation of Convolutional vs Recurrent Networks for Sequence Modeling"*
